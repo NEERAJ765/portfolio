@@ -8,12 +8,12 @@ const Languages = () => {
       icon: Code,
       gradient: "from-blue-500 to-cyan-500",
       items: [
-        { name: "JavaScript", level: 90 },
-        { name: "C++", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "Java", level: 80 },
-        { name: "PHP", level: 75 },
-        { name: "C", level: 85 }
+        { name: "JavaScript", level: 100 },
+        { name: "C++", level: 100 },
+        { name: "Python", level: 100 },
+        { name: "Java", level: 100 },
+        { name: "PHP", level: 100 },
+        { name: "C", level: 100 }
       ]
     },
     {
@@ -21,12 +21,12 @@ const Languages = () => {
       icon: Globe,
       gradient: "from-cyan-500 to-blue-600",
       items: [
-        { name: "React", level: 90 },
-        { name: "Bootstrap", level: 93 },
-        { name: "Angular.js", level: 70 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "EJS", level: 90 },
-        { name: "HTML5/CSS3", level: 98 }
+        { name: "React", level: 100 },
+        { name: "Bootstrap", level: 100 },
+        { name: "Angular.js", level: 100 },
+        { name: "Tailwind CSS", level: 100 },
+        { name: "EJS", level: 100 },
+        { name: "HTML5/CSS3", level: 100 }
       ]
     },
     {
@@ -34,12 +34,12 @@ const Languages = () => {
       icon: Database,
       gradient: "from-indigo-500 to-blue-600",
       items: [
-        { name: "Node.js", level: 90 },
-        { name: "Express.js", level: 85 },
-        { name: "Flask", level: 80 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "ApacheSQL", level: 80 },
+        { name: "Node.js", level: 100 },
+        { name: "Express.js", level: 100 },
+        { name: "Flask", level: 100 },
+        { name: "PostgreSQL", level: 100 },
+        { name: "MongoDB", level: 100 },
+        { name: "ApacheSQL", level: 100 },
       ]
     },
 
@@ -49,12 +49,12 @@ const Languages = () => {
       icon: Smartphone,
       gradient: "from-indigo-500 to-blue-600",
       items: [
-        { name: "Scikit-learn", level: 85 },
-        { name: "Pandas", level: 85 },
-        { name: "Matplotlib", level: 75 },
-        { name: "Seaborn", level: 75 },
-        { name: "Streamlit", level: 80 },
-        { name: "Jupyter Notebooks", level: 80 }
+        { name: "Scikit-learn", level: 100 },
+        { name: "Pandas", level: 100 },
+        { name: "Matplotlib", level: 100 },
+        { name: "Seaborn", level: 100 },
+        { name: "Streamlit", level: 100 },
+        { name: "Jupyter Notebooks", level: 100 }
       ]
     },
 
@@ -93,7 +93,6 @@ const Languages = () => {
                   <div key={item.name} className="relative">
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-gray-300 text-sm font-medium">{item.name}</span>
-                      <span className="text-blue-400 text-sm font-semibold">{item.level}%</span>
                     </div>
                     <div className="w-full bg-gray-800 rounded-full h-2">
                       <div
