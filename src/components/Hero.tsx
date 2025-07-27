@@ -68,7 +68,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Star className="text-blue-400" size={16} />
-                <span>Passionate About Building Scalable Web Applications"</span>
+                <span>Creating scalable web apps passionately</span>
               </div>
             </div>
           </div>
